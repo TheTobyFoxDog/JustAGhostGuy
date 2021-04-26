@@ -8,7 +8,7 @@ var shouldBeAsync = true;
 
 var request = new XMLHttpRequest();
 
-// Before we send anything, we first have to say what we will do when the
+//Before we send anything, we first have to say what we will do when the
 // server responds. This seems backwards (say how we'll respond before we send
 // the request? huh?), but that's how Javascript works.
 // This function attached to the XMLHttpRequest "onload" property specifies how
